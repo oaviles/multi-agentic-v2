@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ms_foundry_agent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fed4810a84c9defe45038a6de959e63be8f0bdcf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d89c5af55bd9220f3f2786d59556e9b85b51dd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ms_foundry_agent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ms_foundry_agent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

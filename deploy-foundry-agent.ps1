@@ -1,7 +1,7 @@
 param(
     [string]$FoundryProjectEndpoint = $env:FOUNDRY_PROJECT_ENDPOINT,
     [string]$FoundryModelDeploymentName = $env:FOUNDRY_MODEL_DEPLOYMENT_NAME,
-    [string]$FoundryAgentName = $(if ($env:FOUNDRY_AGENT_NAME) { $env:FOUNDRY_AGENT_NAME } else { "SimpleFoundryAgent" }),
+    [string]$FoundryAgentName = $(if ($env:FOUNDRY_AGENT_NAME) { $env:FOUNDRY_AGENT_NAME } else { "AndersAgent" }),
     [string]$FoundryAgentInstructions = $(if ($env:FOUNDRY_AGENT_INSTRUCTIONS) { $env:FOUNDRY_AGENT_INSTRUCTIONS } else { "You are an analytical AI agent specialized in reading, understanding, and extracting insights from provided information." }),
     [string]$ProjectFile = "./ms_foundry_agent.csproj"
 )
