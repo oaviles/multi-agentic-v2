@@ -15,5 +15,5 @@
       ]
     }
   },
-  "postCreateCommand": "dotnet restore"
+  "postCreateCommand": "dotnet restore ms_foundry_agent_v2.sln"
 }
