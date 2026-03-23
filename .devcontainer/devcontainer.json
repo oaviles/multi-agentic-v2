@@ -1,0 +1,19 @@
+{
+  "name": "multi-agentic-v2",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    "ghcr.io/devcontainers/features/powershell:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-azuretools.vscode-azurefunctions",
+        "ms-vscode.powershell",
+        "ms-azuretools.vscode-azureresourcegroups"
+      ]
+    }
+  },
+  "postCreateCommand": "dotnet restore"
+}
