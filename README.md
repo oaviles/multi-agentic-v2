@@ -130,7 +130,7 @@ Required environment variables:
 
 ```bash
 export FOUNDRY_PROJECT_ENDPOINT="https://<resource>.services.ai.azure.com/api/projects/<project-name>"
-export FOUNDRY_MODEL_DEPLOYMENT_NAME="gpt-4o"
+export FOUNDRY_MODEL_DEPLOYMENT_NAME="gpt-4.1"
 ```
 
 Optional environment variables:
