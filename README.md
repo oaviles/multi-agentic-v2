@@ -161,7 +161,7 @@ Using environment variables:
 
 ```powershell
 $env:FOUNDRY_PROJECT_ENDPOINT = "https://<resource>.services.ai.azure.com/api/projects/<project-name>"
-$env:FOUNDRY_MODEL_DEPLOYMENT_NAME = "gpt-4o"
+$env:FOUNDRY_MODEL_DEPLOYMENT_NAME = "gpt-4.1"
 ./deploy-foundry-agent.ps1
 ```
 
