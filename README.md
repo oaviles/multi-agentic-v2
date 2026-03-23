@@ -29,7 +29,7 @@ Edit [appsettings.json](appsettings.json):
 {
   "Foundry": {
     "ProjectEndpoint": "https://<your-hub>.services.ai.azure.com/api/projects/<your-project>",
-    "ModelDeployment": "gpt-4o"
+    "ModelDeployment": "gpt-4.1"
   }
 }
 ```
