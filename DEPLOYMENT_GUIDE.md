@@ -22,7 +22,7 @@ az login
 https://<resource>.services.ai.azure.com/api/projects/<project-name>
 ```
 
-6. A model deployment name available in that project, for example: `gpt-4o`.
+6. A model deployment name available in that project, for example: `gpt-4.1`.
 
 ## Option 1: Deploy with PowerShell
 
@@ -36,7 +36,7 @@ deploy-foundry-agent.ps1
 
 ```powershell
 $env:FOUNDRY_PROJECT_ENDPOINT = "https://<resource>.services.ai.azure.com/api/projects/<project-name>"
-$env:FOUNDRY_MODEL_DEPLOYMENT_NAME = "gpt-4o"
+$env:FOUNDRY_MODEL_DEPLOYMENT_NAME = "gpt-4.1"
 $env:FOUNDRY_AGENT_NAME = "SimpleFoundryAgent"
 $env:FOUNDRY_AGENT_INSTRUCTIONS = "You are an analytical AI agent specialized in reading, understanding, and extracting insights from provided information."
 
@@ -48,7 +48,7 @@ $env:FOUNDRY_AGENT_INSTRUCTIONS = "You are an analytical AI agent specialized in
 ```powershell
 ./deploy-foundry-agent.ps1 `
   -FoundryProjectEndpoint "https://<resource>.services.ai.azure.com/api/projects/<project-name>" `
-  -FoundryModelDeploymentName "gpt-4o" `
+  -FoundryModelDeploymentName "gpt-4.1" `
   -FoundryAgentName "SimpleFoundryAgent" `
   -FoundryAgentInstructions "You are an analytical AI agent specialized in reading, understanding, and extracting insights from provided information."
 ```
@@ -65,7 +65,7 @@ deploy-foundry-agent.sh
 
 ```bash
 export FOUNDRY_PROJECT_ENDPOINT="https://<resource>.services.ai.azure.com/api/projects/<project-name>"
-export FOUNDRY_MODEL_DEPLOYMENT_NAME="gpt-4o"
+export FOUNDRY_MODEL_DEPLOYMENT_NAME="gpt-4.1"
 export FOUNDRY_AGENT_NAME="SimpleFoundryAgent"
 export FOUNDRY_AGENT_INSTRUCTIONS="You are an analytical AI agent specialized in reading, understanding, and extracting insights from provided information."
 
@@ -76,7 +76,7 @@ export FOUNDRY_AGENT_INSTRUCTIONS="You are an analytical AI agent specialized in
 
 ```powershell
 $env:FOUNDRY_PROJECT_ENDPOINT = "https://<resource>.services.ai.azure.com/api/projects/<project-name>"
-$env:FOUNDRY_MODEL_DEPLOYMENT_NAME = "gpt-4o"
+$env:FOUNDRY_MODEL_DEPLOYMENT_NAME = "gpt-4.1"
 
 & "C:\Program Files\Git\bin\bash.exe" -lc 'cd "/c/Users/<your-user>/Code/MultiAgent-Demo/ms_foundry_agent" && ./deploy-foundry-agent.sh'
 ```
