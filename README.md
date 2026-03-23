@@ -170,7 +170,7 @@ Using explicit parameters:
 ```powershell
 ./deploy-foundry-agent.ps1 `
   -FoundryProjectEndpoint "https://<resource>.services.ai.azure.com/api/projects/<project-name>" `
-  -FoundryModelDeploymentName "gpt-4o" `
+  -FoundryModelDeploymentName "gpt-4.1" `
   -FoundryAgentName "SimpleFoundryAgent"
 ```
 
