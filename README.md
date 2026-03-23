@@ -49,6 +49,9 @@ $env:Foundry__AgentName = "SimpleFoundryAgent"
 
 ```powershell
 az login
+
+az login --use-device-code
+
 ```
 
 `DefaultAzureCredential` will use your `az login` session locally and Managed Identity in Azure.
