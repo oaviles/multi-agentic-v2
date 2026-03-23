@@ -42,7 +42,7 @@ Alternatively, set environment variables to override `appsettings.json`:
 ```powershell
 $env:Foundry__ProjectEndpoint = "https://..."
 $env:Foundry__ModelDeployment = "gpt-4o"
-$env:Foundry__AgentName = "SimpleFoundryAgent"
+$env:Foundry__AgentName = "AndersAgent"
 ```
 
 ### 2. Authenticate
